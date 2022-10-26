@@ -30,7 +30,7 @@ const SignUpForm = () => {
     
         const {displayName, email, password, confirmPassword} = formFields;
     
-        if (!displayName || !email || !email || !confirmPassword) {
+        if (!displayName || !email || !password || !confirmPassword) {
             alert('All fields are required');
             return;
         }
